@@ -1,0 +1,112 @@
+<html>
+
+<head> <!-- بدايه راس الصفحه-->
+    <title>B-stor1</title> <!--اسم الموقع-->
+        <meta charset="utf-8"> <!-- لتحويل الموقع للعربيه-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- لكي يتناسب تنسيق الموقع مع كافه الشاشات-->
+        <link rel="stylesheet" href="testcscss "/>
+        <!--كوداد ال css-->
+        <style>
+        
+        #B{font-size:60px;
+        font-family:cursive;
+        font-weight:bold;}
+        #B:hover{color: blue;}
+        #w{font-size:20px;
+        font-family:cursive;
+   font-weight:bold;border-radius:0px 30px 0px 30px; border:5px groove red; margin-top:10px;}
+   #co{font-weight:bold;}
+        .me{display:inlineblock;}
+        .ok{border:5px groove red;}
+        .ok{border-radius:15px 15px 15px 15px;}
+        .ok{margin-top:10px;}
+        .ok{font-weight:bold; background-color: black; color:red; padding:5px;}
+        
+        .ok:hover{border:5px ridge blue; border-radius:15px 15px 15px 15px; font-family:cursive;}
+         .nav{border:5px groove red; border-radius:15px 15px 15px 15px; font-weight:bold;background-color: black; color:red; }
+         .nav:hover{border:5px ridge blue; border-radius:15px 15px 15px 15px; font-family:cursive;}
+        #menu{border:3px groove red; border-radius:15px 0px 15px 0px; font-weight:bold;background-color: black; color:red;}       
+        #sett{border:3px groove red; border-radius:0px 15px 0px 15px; font-weight:bold;background-color: black; color:red; }
+        .me{color:#80ffd6;
+        border:3px groove #1c15ff; border-radius:15px 15px 15px 15px; font-weight:bold;background-color: black;}
+        .logout{color:#80ffd6;
+        border:3px groove #1c15ff; border-radius:15px 15px 15px 15px; font-weight:bold;background-color: black;}
+        #det1{padding-bottom:4px;}
+.hr{width: 50%;}
+        
+        </style>
+        
+</head><!-- نهايه راس الصفحه-->
+<body><!--جسم الصفحه-->
+<header><script src="lan.js"></script>
+<nav><!--وسم للبار-->
+<a href="stor2.html"><button class="nav">home</button></a><!--بار الصفحه الرئيسيه-->
+<a href="stor3.html"><button class="nav">store</button></a><!--بار المتجر-->
+<a href="stor5.html"><button class="nav">mony</button></a><!--بار النقود -->
+</nav>
+<marquee id="w" style="color:red; background-color: black;">welcome to my bage Login</marquee>
+</header>
+
+<hr class="hr"></hr>
+<details id="det1" for="menu" <a href="#menu"></a>
+<summary align="left"><button id="menu">Menu</button></summary>
+<p><a href="B-stor.html"><button class="me">Login</button></a></p>
+<p><a href="stor4.html"><button class="me">Sing-up</button></a></p>
+<p><button class="logout">Log-out</button></p>
+
+</details>
+<details for="sett">
+<summary align="left"><button id="sett"> setting </button></summary>
+<a href="https://www.google.com"<p>google</p</a><br>
+<a href="https://www.Facebook.com"<p>Facebook</p></a>
+<a href="https://www.youtube.com"<p>you tube</p></a>
+</details>
+<center>
+<h2 id="B" align="center" style="color:red;">B-Store</h2>
+<form>
+<p>Email:</p><input id="emi" type="email"placeholder="enter your email" required><br>
+<p>Passw:</p><input id="passw" type="password"placeholder="enter your password" required><br>
+<p>your country</p>
+<input list="country" placeholder="select your country" required>
+<datalist id="country" type="text">
+    <option value="Syria"</option>
+    <option value="Iraq"</option>
+    <option value="jourdan"</option>
+    <option value="Egypt"</option>
+    <option value="Morocco"</option>
+    <option value="Canada"</option>
+    <option value="America"</option>
+    <option value="England"</option>
+    <option value="Japan"</option>
+    <option value="Russi"</option>
+    <option value="Brazil"</option>
+    <option value="Argentina"</option>
+    <option value="Lebanon"</option>
+    <option value="Australia"</option>
+    <option value="Germany"</option>
+    <option value="Bahij"</option>
+    
+</datalist><br>
+<a href="stor2.html"><button class="ok">ok</button></a>
+
+</center>
+
+<input class="ok" align="right" type="reset" value ="clear">
+</form> 
+<center>
+<a href="stor2.html"><button align="center" class="ok">next</button></a>
+<a href="stor4.html"><button class="ok"> I don't have id</button></a>
+</center>
+
+<fieldset id="bor">
+<legend id="co" style="color:green;">contact us:</legend>
+<b><p align="center" style="color:green;" > bahijfares011@gmail.com</p> </b>
+<b> <p align="center" style="color: red;">2023/2024 ©® PY :Bahij Fares</p> </b>
+</fieldset>
+<script>
+    if(emi == passw){console.log(1);}
+else{console.log(2);}
+</script>
+
+</body> 
+</html>
